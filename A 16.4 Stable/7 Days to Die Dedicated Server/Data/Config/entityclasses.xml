@@ -2005,7 +2005,7 @@
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
 	<property name="Parent" value="Backpack"/>
-	<property name="TimeStayAfterDeath" value="0"/>
+	<property name="TimeStayAfterDeath" value="60"/>
 	<property name="IsEnemyEntity" value="false"/>
 	<property name="LootListOnDeath" value="47"/>
 	<property name="Faction" value="none"/>
