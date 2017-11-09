@@ -1,0 +1,24 @@
+I have included a semi fix for gore dupe!
+
+These 3 files are located in the Data/Config folder and should only be installed if you are playing on a public server!
+
+Private servers should not need this fix since the people playing should be trusted not to dupe!
+
+This is a workaround fix that does not allow me to use the terrain shaped gore blocks and 
+all corpses and gore blocks will be destroyed upon closing the loot window, any loot left inside the zombie body block will be dropped inside a backpack beside the gore block!
+
+This is only a semi fix since the items that the zombie originally drops can still be duped however you can no longer dupe whatever you choose!
+
+blocks.xml
+entityclasses.xml
+loot.xml
+
+Replace these files with originals from the main mod if you wish to apply the gore dupe fix! 
+If you do not want this gore dupe fix simply do not use these files and only use the original files I provided in the Main Mod!
+
+Check out my Lets Play series showcasing the mod:
+https://www.youtube.com/c/ClockworkOrangeGaming
+
+If you wish to support me, links can be found on my channel and on the main mod page
+
+Enjoy!
