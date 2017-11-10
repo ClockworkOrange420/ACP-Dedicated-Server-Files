@@ -3565,7 +3565,7 @@
 		<property name="DescriptionKey" value="partsCompoundBow_stringDesc"/>
 		<property name="PartType" value="Barrel"/>
 		<property name="Material" value="MmilitaryFiber"/>
-		<property name="Weight" value="5"/>
+		<property name="Weight" value="2"/>
 		<property class="Attributes">
 			<property name="DegradationMax" value="1000,1000"/>
 		</property>
@@ -3605,7 +3605,7 @@
 		</property>
 		<property name="DescriptionKey" value="plantFiberClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<!-- redundant because this is the default but it's easier to read -->
 		<property name="RepairExpMultiplier" value="2"/>
@@ -3703,7 +3703,7 @@
 		</property>
 		<property name="DescriptionKey" value="clothClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -3801,7 +3801,7 @@
 		</property>
 		<property name="DescriptionKey" value="animalHideClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -3901,7 +3901,7 @@
 		</property>
 		<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -3999,7 +3999,7 @@
 		</property>
 		<property name="DescriptionKey" value="scrapIronClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4098,7 +4098,7 @@
 		</property>
 		<property name="DescriptionKey" value="ironClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4203,7 +4203,7 @@
 		</property>
 		<property name="DescriptionKey" value="militaryArmorGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4296,7 +4296,7 @@
 		</property>
 		<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4402,7 +4402,7 @@
 		</property>
 		<property name="DescriptionKey" value="banditArmorGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4514,7 +4514,7 @@
 		</property>
 		<property name="DescriptionKey" value="cowboyHatGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4583,7 +4583,7 @@
 		</property>
 		<property name="DescriptionKey" value="clothClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4621,7 +4621,7 @@
 		</property>
 		<property name="DescriptionKey" value="skullCapDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4698,7 +4698,7 @@
 			<property name="ShowAltHair" value="true"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 		<property name="LightValue" value="0.7"/>
@@ -4730,7 +4730,7 @@
 			<property name="ShowAltHair" value="true"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4764,7 +4764,7 @@
 		</property>
 		<property name="Group" value="Clothing"/>
 		<property name="DescriptionKey" value="footballHelmetDesc"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4811,7 +4811,7 @@
 			<property name="ShowAltHair" value="true"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 		<property name="RepairExpMultiplier" value="2"/>
 		<property name="CreativeMode" value="Dev"/>
@@ -4844,7 +4844,7 @@
 			<property name="UISlot" value="Eyewear"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
 	<item id="472" name="aviatorGoggles">
@@ -4892,7 +4892,7 @@
 			<property name="UISlot" value="Eyewear"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Heavy Armor"/>
+		<property name="ActionSkillGroup" value="craftSkillArmor"/>
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -4976,7 +4976,7 @@
 		</property>
 		<property name="DescriptionKey" value="animalHidePonchoDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5012,7 +5012,7 @@
 		</property>
 		<property name="DescriptionKey" value="bandanaClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5089,7 +5089,7 @@
 		</property>
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5163,7 +5163,7 @@
 		</property>
 		<property name="DescriptionKey" value="tankTopClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5248,7 +5248,7 @@
 			<property name="UISlot" value="Footwear"/>
 		</property>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5297,7 +5297,7 @@
 		</property>
 		<property name="DescriptionKey" value="shirtClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5383,7 +5383,7 @@
 		</property>
 		<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Medium Armor"/>
+		<property name="ActionSkillGroup" value="Leatherworking"/>
 		<property name="CraftingSkillGroup" value="Leatherworking"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5428,7 +5428,7 @@
 		</property>
 		<property name="DescriptionKey" value="pufferCoatGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5516,7 +5516,7 @@
 		</property>
 		<property name="DescriptionKey" value="shirtClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5596,7 +5596,7 @@
 		</property>
 		<property name="DescriptionKey" value="tshirtClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5685,7 +5685,7 @@
 		</property>
 		<property name="DescriptionKey" value="jacketGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -5879,7 +5879,7 @@
 		</property>
 		<property name="DescriptionKey" value="shirtClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
@@ -6142,7 +6142,7 @@
 		</property>
 		<property name="DescriptionKey" value="denimClothesGroupDesc"/>
 		<property name="Group" value="Clothing"/>
-		<property name="ActionSkillGroup" value="Light Armor"/>
+		<property name="ActionSkillGroup" value="Tailoring"/>
 		<property name="CraftingSkillGroup" value="Tailoring"/>
 		<property name="RepairExpMultiplier" value="2"/>
 	</item>
